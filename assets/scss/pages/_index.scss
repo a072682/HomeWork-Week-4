@@ -1,17 +1,17 @@
 /*---------------------------header------------------------*/
 .header{
     height: 787px;
-    background-image: url(../assets/images/home-header.png);
+    background-image: url(/assets/images/home-header.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   
     @include md{
-      background-image: url(../assets/images/home-header-sm.png);
+      background-image: url(/assets/images/home-header-sm.png);
     }
     @include sm{
       height: 396px;
-      background-image: url(../assets/images/home-header-sm.png);
+      background-image: url(/assets/images/home-header-sm.png);
     }
   
     .header-box-in{
@@ -212,7 +212,7 @@
 /*---------------------------main--------------------------*/
 /*--------------------------main2--------------------------*/
 .main2{
-    background-image: url(../assets/images/index-bg.png);
+    background-image: url(/assets/images/index-bg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -222,10 +222,10 @@
     align-items: center;
 
     @include md{
-        background-image: url(../assets/images/index-bg-md.png);
+        background-image: url(/assets/images/index-bg-md.png);
     }
     @include sm{
-        background-image: url(../assets/images/index-bg-sm.png);
+        background-image: url(/assets/images/index-bg-sm.png);
     }
 
     .main2-box-in{
