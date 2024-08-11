@@ -1,5 +1,70 @@
 /*---------------------------header------------------------*/
-
+.header{
+    height: 787px;
+    background-image: url(../assets/images/home-header.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    @include md{
+      background-image: url(../assets/images/home-header-sm.png);
+    }
+    @include sm{
+      height: 396px;
+      background-image: url(../assets/images/home-header-sm.png);
+    }
+  
+    .header-box-in{
+      max-width: 1320px;
+      height: 100%;
+      justify-content: end;
+      align-items: center;
+  
+      @include md{
+        max-width: 696px;
+      }
+      @include sm{
+        max-width: 100%;
+      }
+      
+      .header_1A-article{
+        text-align: right;
+    
+        h1{
+          font-size: $fs-h1;
+          color: $color-650300;
+          font-weight: bold;
+          @include sm{
+            font-size: $fs-h4;
+          }
+        }
+    
+        h2{
+          font-size: $fs-h3;
+          color:$color-650300;
+          @include sm{
+            font-size: $fs-16;
+          }
+        }
+  
+        .header_2A-btn{
+          background-color: $color-red;
+          width: 104px;
+          height: 41px;
+          border: none;
+  
+          .header_3A-btn p{
+              color:$color-white;
+              font-size: $fs-20;
+              line-height: 30px;
+              font-family:"Noto Sans TC",sans-serif;
+              font-optical-sizing: auto;
+              font-weight: medium;
+          }
+        }
+      }
+    }
+  }
 /*---------------------------header------------------------*/
 /*---------------------------icon--------------------------*/
 .icon{
