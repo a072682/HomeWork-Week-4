@@ -1,0 +1,177 @@
+/*------------------------ footer-------------------------*/
+.footer{
+    background-color: $color-red;
+
+    .footer-box-in{
+        max-width: 1320px;
+
+        @include md{
+            max-width: 720px;
+        }
+        @include sm{
+            max-width: 375px;
+            padding: 0 14px;
+        }
+    }
+    .footer_1A-box{
+        padding-top: 48px;
+        padding-bottom: 32px;
+        border-bottom:1px solid $color-white;
+        justify-content: space-between;
+
+        @include md{
+        }
+        @include sm{
+            padding-top: 24px;
+            padding-bottom: 24px;
+        }
+
+        .footer_2A-article-box{
+            
+            .footer_3A-text-box{
+                height: 48px;
+                margin-bottom: 8px;
+                align-items: center;
+                gap:48px;
+
+                @include md{
+                }
+                @include sm{
+                    display: none;
+                }
+
+                p{
+
+                    @include md{
+                    }
+                    @include sm{
+                    }
+                }
+            }
+
+            .footer_3A-phone-box{
+                margin-bottom: 8px;
+
+                p{
+                    font-size: 36px;
+                    line-height: 54px;
+                    color:$color-white;
+                    @include md{
+                        font-size: 36px;
+                    }
+                    @include sm{
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                    
+                }
+            }
+
+            .footer_3A-email-box{
+                display: flex;
+
+                p{
+                    font-size: 36px;
+                    line-height: 54px;
+                    color:$color-white;
+                    @include md{
+                        font-size: clamp(32px,5vw,36px);
+                    }
+                    @include sm{
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+
+        .footer_2A-icon-box{
+            display: flex;
+            gap:32px;
+            
+            @include md{
+                gap: 16px;
+            }
+            @include sm{
+                gap:8px;
+            }
+            .footer_3B-icon-img{
+                max-width:48px;
+
+                @include md{
+                    max-width:40px;
+                }
+                @include sm{
+                    max-width:24px;
+                }
+
+                img{
+                    width:100%;
+                }
+            }
+        }
+    }
+    .footer_1A-ft-box{
+        padding:32px 0 32px 0;
+        justify-content: space-between;
+
+        @include md{
+        }
+        @include sm{
+            padding:16px 0 16px 0;
+            flex-direction:column;
+        }
+
+        p{
+            color:$color-white;
+
+            @include md{
+            }
+            @include sm{
+                margin-bottom: 8px;
+            }
+        }
+        .footer_2B-text{
+            display: flex;
+            gap: 48px;
+            
+            @include md{
+            }
+            @include sm{
+                flex-direction:column;
+                gap: 0px;
+                row-gap: 8px;
+            }
+            a{
+                font-size: $fs-time;
+                color:$color-white;
+
+                @include md{
+                }
+                @include sm{
+                }
+            }
+        }
+    }
+}
+.text-set{
+    font-size: $fs-16;
+    color:$color-white;
+    @include md{
+        font-size: $fs-16; 
+    }
+    @include sm{
+    }
+}
+.icon-set{
+    font-size: $fs-h2;
+    margin-right: 16px;
+    color:$color-white;
+    @include md{ 
+    }
+    @include sm{
+        font-size: $fs-h4;
+        margin-right: 8px;
+    }
+}
+/*------------------------ footer-------------------------*/

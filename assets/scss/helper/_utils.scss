@@ -1,0 +1,43 @@
+.mg-center{
+    margin: 0 auto;
+  }
+.d-flex{
+  display: flex;
+}
+.d-center{
+  justify-content: center;
+  align-items: center;
+}
+.d-between{
+  justify-content: space-between;
+  align-items: center;
+}
+.pd-y-80{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.pd-y-48{
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+
+.pd-y-33{
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+.pd-y-24{
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.pd-x-12{
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.pd-bottom-80{
+  padding-bottom: 80px;
+}
+.gap-24{
+  gap:24px;
+}

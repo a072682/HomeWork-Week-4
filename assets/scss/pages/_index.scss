@@ -1,0 +1,492 @@
+/*---------------------------header------------------------*/
+.header{
+  height: 787px;
+  background-image: url(../assets/images/home-header.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @include md{
+    background-image: url(../assets/images/home-header-sm.png);
+  }
+  @include sm{
+    height: 396px;
+    background-image: url(../assets/images/home-header-sm.png);
+  }
+
+  .header-box-in{
+    max-width: 1320px;
+    height: 100%;
+    justify-content: end;
+    align-items: center;
+
+    @include md{
+      max-width: 696px;
+    }
+    @include sm{
+      max-width: 100%;
+    }
+    
+    .header_1A-article{
+      text-align: right;
+  
+      h1{
+        font-size: $fs-h1;
+        color: $color-650300;
+        font-weight: bold;
+        @include sm{
+          font-size: $fs-h4;
+        }
+      }
+  
+      h2{
+        font-size: $fs-h3;
+        color:$color-650300;
+        @include sm{
+          font-size: $fs-16;
+        }
+      }
+
+      .header_2A-btn{
+        background-color: $color-red;
+        width: 104px;
+        height: 41px;
+        border: none;
+
+        .header_3A-btn p{
+            color:$color-white;
+            font-size: $fs-20;
+            line-height: 30px;
+            font-family:"Noto Sans TC",sans-serif;
+            font-optical-sizing: auto;
+            font-weight: medium;
+        }
+      }
+    }
+  }
+}
+/*---------------------------header------------------------*/
+/*---------------------------icon--------------------------*/
+.icon{
+    background-color:$color-FBF2F2 ;
+    
+    .icon-box-in{
+      max-width: 1320px;
+      @include md{
+        max-width: 696px;
+      }
+      @include sm{
+        max-width: 375px;
+        padding: 40px 14px;
+      }
+
+      .icon_1A-title{
+        text-align: center;
+        font-size: $fs-h2;
+        color: $color-650300;
+        font-weight: bold;
+        @include sm{
+          font-size: $fs-h4;
+        }
+      }
+      .icon_1A-icon{
+
+        @include md{
+            flex-wrap:wrap;
+            row-gap: 24px;
+        }
+        @include sm{
+            row-gap: 33px;
+            padding-top: 33px;
+        }
+        .icon_2A-card1{
+            width: calc(25% - 18px);
+            @include md{
+                width: calc(50% - 12px);
+            }
+            @include sm{
+                width: 100%;
+            }
+        
+            h3{
+              text-align: center;
+              font-size: $fs-h4;
+              color: $color-650300;
+              font-weight: bold;
+              padding-bottom: 8px;
+            }
+        
+            p{
+              font-size: $fs-16;
+              color: $color-black;
+            }
+            .icon_3A-img{
+                max-width:85px;
+                margin: 0 auto;
+                padding-bottom: 25px;
+                @include sm{
+                  max-width:100px;
+                  padding-bottom: 16px;
+                }
+            
+                img{
+                  width: 100%;
+                }
+            }
+        }
+      }
+    }
+}
+/*---------------------------icon--------------------------*/
+/*---------------------------main--------------------------*/
+.main-box-in{
+    max-width: 1320px;
+    flex-direction:column;
+    row-gap: 48px;
+    @include md{
+      max-width: 720px;
+    }
+    @include sm{
+      max-width: 375px;
+      padding: 40px 14px;
+    }
+
+    .main_1A-title{
+      text-align: center;
+      font-size: $fs-h2;
+      color: $color-650300;
+      font-weight: bold;
+      @include sm{
+        font-size: $fs-h4;
+      }
+    }
+
+    .main_1A-icon{
+        gap:24px;
+        @include md{
+            flex-wrap:wrap;
+            gap:0px;
+        }
+        @include sm{
+        }
+        .main_2A-card1{
+            flex-direction:column;
+            row-gap: 8px;
+            width: 33.333333%;
+            @include md{
+                width: 100%;
+            }
+            @include sm{
+            }
+        
+            p{
+            @include sm{
+                font-size:48px;
+            }
+            }
+        
+            h3{
+            text-align: center;
+            font-size: $fs-h2;
+            color: $color-red;
+            font-weight: 900;
+            font-style: italic;
+            }
+
+            .main_3A-img{
+                max-width:416px ;
+                @include md{
+                  max-width:336px;
+                }
+                @include sm{
+                  max-width:348px;
+                }
+            
+                img{
+                  width: 100%;
+                }
+            }
+        }
+    }
+}
+/*---------------------------main--------------------------*/
+/*--------------------------main2--------------------------*/
+.main2{
+    background-image: url(../assets/images/index-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include md{
+        background-image: url(../assets/images/index-bg-md.png);
+    }
+    @include sm{
+        background-image: url(../assets/images/index-bg-sm.png);
+    }
+
+    .main2-box-in{
+        max-width: 1320px;
+        flex-direction:column;
+        @include md{
+            max-width: 720px;
+        }
+        @include sm{
+            max-width: 375px;
+            padding: 40px 14px;
+        }
+        .main2_1A-title{
+            margin-bottom: 48px;
+            text-align: center;
+            font-size: $fs-h2;
+            color: $color-white;
+            font-weight: bold;
+            @include md{
+            }
+            @include sm{
+                font-size: $fs-h4;
+                line-height: 36px;
+                margin-bottom: 24px;
+            }
+        }
+
+        .main2_1A-icon{
+            display: flex;
+            justify-content: center;
+            flex-wrap:wrap;
+            @include md{
+                row-gap: 24px;
+            }
+            @include sm{
+            }
+
+            .main2_2A-card1{
+                width: 50%;
+                @include md{
+                    width: 100%;
+                }
+                @include sm{
+                }
+
+                p{
+                    background-color: $color-white;
+                    text-align: center;
+                    font-size: $fs-h2;
+                    color: $color-red;
+                    font-weight: 900;
+                    font-style: italic;
+                    padding: 8px 0;
+
+                    @include md{
+                    }
+                    @include sm{
+                    }
+                }
+                .main2_3A-img{
+                    max-width:648px;
+                    height:240px;
+                    @include md{
+                        max-width:696px;
+                    }
+                    @include sm{
+                        max-width: 348px;
+                    }
+
+                    img{
+                        width:100%;
+                        height:100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+}
+/*--------------------------main2--------------------------*/
+/*--------------------------main3--------------------------*/
+.main3{
+
+    .main3-box-in{
+        max-width: 1320px;
+        flex-direction:column;
+        row-gap: 48px;
+
+        @include md{
+            max-width: 720px;
+        }
+        @include sm{
+            row-gap: 24px;
+            max-width: 375px;
+            padding: 40px 0;
+        }
+
+        .main3_1A-title{
+            text-align: center;
+            font-size: $fs-h2;
+            color: $color-650300;
+            font-weight: bold;
+
+            @include md{
+            }
+            @include sm{
+                font-size: $fs-h4;
+            }
+        }
+
+        .main3_1A-icon{
+            @include md{
+                flex-wrap:wrap;
+                row-gap: 24px;
+            }
+            @include sm{
+            }
+
+            .main3_2A-card1{
+                /*max-width: 306px;*/
+                width: calc(25% - 18px);
+                flex-direction:column;
+                box-shadow:0 0 3px 0 rgba(0, 0, 0, 0.5); ;
+
+                @include md{
+                    max-width:336px;
+                    width: calc(50% - 12px);
+                }
+                @include sm{
+                    max-width:347px;
+                    width: 100%;
+                }
+
+                .main3_3A-img{
+                    max-width:100%;
+                    
+                    @include md{
+                    }
+                    @include sm{
+                    }
+
+                    img{
+                        width: 100%;
+                        max-height: 306px;
+                        object-fit: cover;
+                    }
+                }
+
+                .main3_3B{
+                    padding: 16px;
+                    display: flex;
+                    flex-direction:column;
+                    height: 208px;
+
+                    p{
+                        padding-bottom: 8px;
+                        line-height: 24px;
+                    }
+                    p:last-child{
+                        padding-bottom: 0px;
+                    }
+                    .main3_4A-time{
+                        margin-top: auto;
+                        font-size: $fs-time;
+                        line-height: 21px;
+                        color:#707070;
+                    }
+                }
+            }
+        }
+    }
+}
+/*--------------------------main3--------------------------*/
+/*--------------------------form --------------------------*/
+.form{
+    background-color: $color-FBF2F2;
+
+    .form-box-in{
+        max-width: 660px;
+
+        @include md{
+            max-width: 600px;
+        }
+        @include sm{
+            max-width: 375px;
+            padding: 40px 14px;
+        }
+
+        .form_1A-title{
+            text-align: center;
+            font-size: $fs-h2;
+            color: $color-650300;
+            font-weight: bold;
+            margin-bottom: 48px;
+
+            @include md{
+                margin-bottom: 24px;
+            }
+            @include sm{
+                font-size: $fs-h4;
+                margin-bottom: 24px;
+            }
+        }
+
+        .form_1A-text{
+            font-size: $fs-20;
+            margin-bottom: 24px;
+
+            @include md{
+                font-size: $fs-16;
+            }
+            @include sm{
+                font-size: $fs-16;
+            }
+        }
+
+        .form_1A-form{
+            display: flex;
+            flex-direction:column;
+
+            .form_2A-text{
+                display: block;
+            }
+            .form_2A-input{
+                width: 100%;
+                min-height: 36px;
+                margin: 8px auto 16px auto;
+
+                @include md{
+                }
+                @include sm{
+                    min-height: 33px;
+                }
+            }
+            .form_2A-check{
+                width: unset;
+                margin: 0 8px 0 0;
+                vertical-align: middle;
+            }
+            .form_2A-submit{
+                display: block;
+                max-width: 416px;
+                width: 100%;
+                height: 56px;
+                font-size: $fs-16;
+                font-weight: bold;
+                color: $color-white;
+                background-color: $color-red;
+                margin: 48px auto 0 auto;
+                cursor: pointer;
+                border: none;
+                @include md{
+                }
+                @include sm{
+                    margin: 24px auto 0 auto;
+                }
+            }
+            .form_2A-submit:hover{
+                background-color: $color-650300;
+            }
+        }
+    }
+}
+/*--------------------------form--------------------------*/
