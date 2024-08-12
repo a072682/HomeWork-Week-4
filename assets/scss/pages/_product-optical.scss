@@ -24,10 +24,10 @@
                 h4{
                     font-size: $fs-32;
                     color:$color-black;
-                    font-weight:500;
+                    font-weight:700;
                     text-align: center;
                     @include md{
-                        font-size: $fs-h4;
+                        font-size: $fs-24;
                     }
                     @include sm{
                         font-size: $fs-16;
@@ -43,13 +43,12 @@
             }
             a:hover{
                 div{
-                    background-color: blue;
+                    background-color: $color-red;
                 }
             }
         }
     }
 }
-
 .product-header2{
     .product-header2-box-in{
         width: 100%;
@@ -69,7 +68,6 @@
         }
     }
 }
-
 .product-main1{
 
     .product-main1-box-in{
@@ -89,6 +87,7 @@
             h2{
                 text-align: center;
                 font-size:$fs-42;
+                font-weight: 700;
             }
             h3{
                 text-align: center;
@@ -121,62 +120,60 @@
                     @include sm{
                         width: 100%;
                     }
-
-                    .product-main1_4A-content{
-
-                        .product-main1_5A-img{
-                            max-width: 306px;
-
-                            @include md{
-                                max-width: 336px;
-                            }
-                            @include sm{
-                                max-width: 348px;
-                            }
-
-                            img{
-                                width: 100%;
-                                max-height: 168px;
-                                object-fit: cover;
-                            }
-                        }
-
-                        .product-main1_5B-text{
-
-                            .product-main1_6A-text1{
-                                font-size:$fs-h4;
-                                font-weight: 500;
-                            }
-
-                            .product-main1_6A-text2{
-                                font-size:$fs-h4;
-                                color:$color-red;
-                                font-weight: 500;
-                            }
-
-                        }
-
-                        .product-main1_5C-colorbox{
-                            gap:8px;
-                            .product-main1_6B-colorbox1{
-                                width:24px;
-                                height:24px;
-                                background-color: $color-5F3E2D;
-                            }
-
-                            .product-main1_6B-colorbox2{
-                                width:24px;
-                                height:24px;
-                                background-color: $color-B75929;
-                            }
-                        }
-                    }
                 }
             }
         }
     }
 }
+.product-main1_4A-content{
 
+    .product-main1_5A-img{
+        max-width: 306px;
+
+        @include md{
+            max-width: 336px;
+        }
+        @include sm{
+            max-width: 348px;
+        }
+
+        img{
+            width: 100%;
+            max-height: 168px;
+            object-fit: cover;
+        }
+    }
+
+    .product-main1_5B-text{
+
+        .product-main1_6A-text1{
+            font-size:$fs-24;
+            font-weight: 500;
+        }
+
+        .product-main1_6A-text2{
+            font-size:$fs-24;
+            color:$color-red;
+            font-weight: 500;
+        }
+
+    }
+
+    .product-main1_5C-colorbox{
+        gap:8px;
+        .product-main1_6B-colorbox1{
+            width:24px;
+            height:24px;
+            background-color: $color-5F3E2D;
+        }
+
+        .product-main1_6B-colorbox2{
+            width:24px;
+            height:24px;
+            background-color: $color-B75929;
+        }
+    }
+}
 .product-pagination{
 
     .product-pagination-box-in{

@@ -1,0 +1,103 @@
+.product-sun-main1{
+
+    .product-sun-main1-box-in{
+        max-width:1320px;
+        flex-direction:column;
+        row-gap:32px;
+        @include md{
+            max-width: 696px;
+        }
+        @include sm{
+            max-width: 348px;
+            row-gap:24px;
+        }
+    }
+}
+.product-sun-main1_1A-title{
+            
+    h2{
+        text-align: center;
+        font-size:$fs-42;
+        font-weight: 700;
+    }
+    h3{
+        text-align: center;
+        font-size:$fs-42;
+    }
+}
+.product-sun-main1_1B-card-box{
+    max-width: 100%;
+
+    @include md{
+    }
+    @include sm{
+    }
+
+    .product-sun-main1_2A-card-row{
+        flex-wrap:wrap;
+        row-gap: 80px;
+        @include md{
+        }
+        @include sm{
+        }
+
+        .product-sun-main1_3A-card-box{
+
+            width: calc(33.333333% - 16px);
+            @include md{
+                width: calc(50% - 12px);
+            }
+            @include sm{
+                width: 100%;
+            }
+
+            .product-sun-main1_4A-content{
+
+                .product-sun-main1_5A-img{
+                    max-width: 416px;
+
+                    @include md{
+                        max-width: 336px;
+                    }
+                    @include sm{
+                        max-width: 348px;
+                    }
+
+                    img{
+                        width: 100%;
+                        max-height: 224px;
+                        object-fit: cover;
+                    }
+                }
+
+                .product-sun-main1_5B-text{
+
+                    .product-sun-main1_6A-text1{
+                        font-size:$fs-24;
+                        font-weight: 500;
+                    }
+
+                    .product-sun-main1_6A-text2{
+                        font-size:$fs-24;
+                        color:$color-red;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
+.product-sun-main1_5C-colorbox{
+    gap:8px;
+    .product-sun-main1_6B-colorbox1{
+        width:24px;
+        height:24px;
+        background-color: $color-5F3E2D;
+    }
+
+    .product-sun-main1_6B-colorbox2{
+        width:24px;
+        height:24px;
+        background-color: $color-B75929;
+    }
+}

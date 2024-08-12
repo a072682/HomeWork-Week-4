@@ -31,16 +31,16 @@
         text-align: right;
     
         h1{
-          font-size: $fs-h1;
+          font-size: $fs-64;
           color: $color-650300;
           font-weight: bold;
           @include sm{
-            font-size: $fs-h4;
+            font-size: $fs-24;
           }
         }
     
         h2{
-          font-size: $fs-h3;
+          font-size: $fs-36;
           color:$color-650300;
           @include sm{
             font-size: $fs-16;
@@ -82,11 +82,11 @@
 
       .icon_1A-title{
         text-align: center;
-        font-size: $fs-h2;
+        font-size: $fs-48;
         color: $color-650300;
         font-weight: bold;
         @include sm{
-          font-size: $fs-h4;
+          font-size: $fs-24;
         }
       }
       .icon_1A-icon{
@@ -110,7 +110,7 @@
         
             h3{
               text-align: center;
-              font-size: $fs-h4;
+              font-size: $fs-24;
               color: $color-650300;
               font-weight: bold;
               padding-bottom: 8px;
@@ -153,11 +153,11 @@
 
     .main_1A-title{
       text-align: center;
-      font-size: $fs-h2;
+      font-size: $fs-48;
       color: $color-650300;
       font-weight: bold;
       @include sm{
-        font-size: $fs-h4;
+        font-size: $fs-24;
       }
     }
 
@@ -187,7 +187,7 @@
         
             h3{
             text-align: center;
-            font-size: $fs-h2;
+            font-size: $fs-48;
             color: $color-red;
             font-weight: 900;
             font-style: italic;
@@ -241,13 +241,13 @@
         .main2_1A-title{
             margin-bottom: 48px;
             text-align: center;
-            font-size: $fs-h2;
+            font-size: $fs-48;
             color: $color-white;
             font-weight: bold;
             @include md{
             }
             @include sm{
-                font-size: $fs-h4;
+                font-size: $fs-24;
                 line-height: 36px;
                 margin-bottom: 24px;
             }
@@ -274,7 +274,7 @@
                 p{
                     background-color: $color-white;
                     text-align: center;
-                    font-size: $fs-h2;
+                    font-size: $fs-48;
                     color: $color-red;
                     font-weight: 900;
                     font-style: italic;
@@ -325,14 +325,14 @@
 
         .main3_1A-title{
             text-align: center;
-            font-size: $fs-h2;
+            font-size: $fs-48;
             color: $color-650300;
             font-weight: bold;
 
             @include md{
             }
             @include sm{
-                font-size: $fs-h4;
+                font-size: $fs-24;
             }
         }
 
@@ -416,7 +416,7 @@
 
         .form_1A-title{
             text-align: center;
-            font-size: $fs-h2;
+            font-size: $fs-48;
             color: $color-650300;
             font-weight: bold;
             margin-bottom: 48px;
@@ -425,7 +425,7 @@
                 margin-bottom: 24px;
             }
             @include sm{
-                font-size: $fs-h4;
+                font-size: $fs-24;
                 margin-bottom: 24px;
             }
         }

@@ -164,13 +164,13 @@
     }
 }
 .icon-set{
-    font-size: $fs-h2;
+    font-size: $fs-48;
     margin-right: 16px;
     color:$color-white;
     @include md{ 
     }
     @include sm{
-        font-size: $fs-h4;
+        font-size: $fs-24;
         margin-right: 8px;
     }
 }
